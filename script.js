@@ -28,6 +28,6 @@ document.getElementById('squarShape').onclick = function(){
     document.getElementById('speed').innerText= Math.floor(left / ((end-start)/1000));
 
 
-    alert((end-start)/1000);
+    alert('Second : '+(end-start)/1000 +'sec' );
     
 } 
